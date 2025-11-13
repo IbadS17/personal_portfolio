@@ -15,13 +15,13 @@ const Footer = ({ isDarkMode }) => (
     >
       &copy; {new Date().getFullYear()} MOHD IBAAD SHAIKH. [SYSTEM ONLINE].
     </p>
+
     <p
       className={`text-xs mt-1 font-mono ${
         isDarkMode ? "text-gray-700" : "text-gray-600"
       }`}
     >
-      ARCHITECTURE: React + Tailwind CSS | DESIGN:{" "}
-      {isDarkMode ? "Black & White Matrix" : "Light & Minimal"}
+      FULL STACK DEVELOPER • React | Next.js | Node.js | MongoDB
     </p>
   </footer>
 );
