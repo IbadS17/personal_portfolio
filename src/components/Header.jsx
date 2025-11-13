@@ -17,8 +17,8 @@ const Header = ({ isDarkMode, toggleTheme }) => {
       <div
         className={`max-w-4xl mx-auto w-full rounded-3xl backdrop-blur-xl border shadow-2xl transition duration-500 ${
           isDarkMode
-            ? "bg-gray-900/70 border-gray-700/50"
-            : "bg-white/70 border-gray-300/70"
+            ? "bg-gray-900/50 border-gray-700/30"
+            : "bg-white/50 border-gray-300/50"
         }`}
       >
         <div className="px-6 py-3 flex justify-between items-center">

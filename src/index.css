@@ -26,6 +26,15 @@
   animation: fadeInUp 0.8s ease-out;
 }
 
+@keyframes grid-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50px, 50px);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

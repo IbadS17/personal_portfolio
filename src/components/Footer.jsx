@@ -20,8 +20,7 @@ const Footer = ({ isDarkMode }) => (
         isDarkMode ? "text-gray-700" : "text-gray-600"
       }`}
     >
-      ARCHITECTURE: React + Tailwind CSS | DESIGN:{" "}
-      {isDarkMode ? "Black & White Matrix" : "Light & Minimal"}
+      FULL STACK DEVELOPER | STACK: React | Next.js | Node.js | MongoDB | JAVA SpringBoot
     </p>
   </footer>
 );

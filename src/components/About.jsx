@@ -7,8 +7,8 @@ const About = ({ isDarkMode }) => (
     id="about"
     className={`py-20 px-4 transition-colors ${
       isDarkMode
-        ? "bg-gray-950 border-t border-b border-gray-800"
-        : "bg-white border-t border-b border-gray-300"
+        ? "bg-gray-950 border-b border-gray-800"
+        : "bg-white border-b border-gray-300"
     }`}
   >
     <div className="max-w-7xl mx-auto">

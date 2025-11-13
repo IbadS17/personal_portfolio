@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import GitHubStats from "./components/GitHubStats";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -18,10 +19,11 @@ function App() {
       } min-h-screen overflow-x-hidden`}
     >
       <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
-      <main className="pt-[100px]">
+      <main>
         <Hero isDarkMode={isDarkMode} />
         <About isDarkMode={isDarkMode} />
         <Skills isDarkMode={isDarkMode} />
+        <GitHubStats isDarkMode={isDarkMode} />
         <Projects isDarkMode={isDarkMode} />
         <Contact isDarkMode={isDarkMode} />
       </main>
