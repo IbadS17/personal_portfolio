@@ -48,14 +48,14 @@ export const developerData = {
       description:
         "Developed and deployed a full-stack company website offering internships, quizzes, and web services.",
       tech: "AngularJS, Java Spring Boot, MySQL",
-      link: "https://ibads17.github.io/Personal_Portfolio/",
+      link: "https://github.com/IbadS17/tranquilty-frontend",
     },
     {
       name: "EASESCHOOL MANAGEMENT",
       description:
         "Built a role-based access control system (Admin/User) following MVC architecture.",
       tech: "Java, Spring, JPA, MVC Architecture",
-      link: "#",
+      link: "https://github.com/IbadS17/EaseSchool-WebApp",
     },
     {
       name: "SMART CONTACT MANAGER",
