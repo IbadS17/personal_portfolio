@@ -62,7 +62,7 @@ export const developerData = {
       description:
         "Secure contact management system with RESTful APIs and Spring Security.",
       tech: "Spring Boot, REST APIs, Thymeleaf",
-      link: "#",
+      link: "https://smartcontactmanager-emlp.onrender.com/home",
     },
   ],
   contact: {
